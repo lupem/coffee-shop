@@ -1,0 +1,112 @@
+h1,h2,h3,h4.h5{
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+.center-block{
+	margin: 0 auto;
+	display: block;
+}
+.img-responsive{
+	max-width: 100%;
+}
+#breakfast, 
+#lunch, 
+#espresso,
+#drinks,
+#dessert{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 25% 0;
+	position: relative;
+	margin-bottom: -30px;
+}
+.bg-breakfast{
+	background-image: url(../img/breakfast-bg.jpg);
+	
+}
+.bg-lunch{
+	background-image: url(../img/food-bg.jpg);
+}
+.bg-espresso{
+	background-image: url(../img/coffee-bg.jpg);
+}
+.bg-drinks{
+	background-image: url(../img/drinks-bg-2.jpg);
+}
+.bg-dessert{
+	background-image: url(../img/dessert-bg-2.jpg);
+}
+.overlay{
+	position: absolute;
+background-color: rgba(0,0,0,0.70);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.info-menu{
+	display: block;
+}
+
+#home h4{
+	font-size: 24px;
+}
+
+#menu .card-header{
+	font-size: 14px;
+	color: #606162;
+	font-weight: 600;
+	text-align: center;
+}
+
+#menu .card-header::after{
+	background-color: transparent;
+}
+
+#menu .card-footer{
+	color: #0D9F67;
+	font-weight: 600;
+	text-align: center;
+	justify-content: center;
+}
+
+#menu .card-footer::before{
+	background-color: transparent;
+}
+
+#menu .card-content img{
+	max-height: 140px;
+}
+
+#nav-list .icon{
+	color: #0D9567;
+}
+
+#producto .info-producto{
+	border: 1px solid #C7C7C7;
+	margin: 32px 20px;
+	padding: 20px;
+}
+
+#producto .icon{
+	color: #C7C7C7;	
+}
+
+#producto .precio{
+	text-align: right;
+	color: #0D9F67;
+	font-weight: 600;
+	float: right;
+}
+
+#producto .texto{
+	color: #929AA4;
+	text-align: center;
+}
