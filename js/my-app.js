@@ -33,6 +33,16 @@ var myApp = new Framework7({
     	url: 'info-producto.html',
     	name: 'producto',
   		},
+		{
+		path: '/menu-espresso/',
+    	url: 'menu-espresso.html',
+    	name: 'menu-espresso',
+  		},
+		{
+		path: '/info-espresso/',
+    	url: 'info-espresso.html',
+    	name: 'info-espresso',
+  		},
 	]
     // ... other parameters
 });
